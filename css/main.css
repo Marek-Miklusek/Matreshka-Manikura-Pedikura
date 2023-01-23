@@ -1,3 +1,152 @@
-main {
- 
+/* SERVICES */
+
+.services {
+  display: flex;
+}
+
+.services-image {
+  width: 10em;
+  border-radius: 50%;
+}
+
+.services div {
+  text-align: center;
+  padding: 2em;
+}
+
+.services p {
+  line-height: 2.5;
+}
+
+.services-1 { 
+  background-color: #fff2e9;
+}
+
+.services-2 { 
+  background-color: #e6cc9466;
+}
+
+.services-3 { 
+  background-color: #fce1c9;
+}
+
+.services-4 { 
+  background-color: #f6e7dc;
+}
+
+/* WHY ME */
+
+.why-me {
+  padding: 3em 3em 0 3em; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.why-me-h1-p {
+  max-width: 68rem;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 2;
+}
+
+.why-me-h1-p h2 {
+  font-size: 2em;
+  margin-bottom: 1.5em;
+}
+
+.why-me-h1-p p {
+  font-size: 18px;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  margin-top: 5em;
+}
+
+.container p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.heart,.star,.quality,.fashion {
+  flex: 1;
+}
+
+.fa-regular {
+  font-size: 3em;
+  color: #e6cc94;
+  -webkit-text-stroke: 2px white;
+}
+
+.box-order-button {
+  display: flex;
+  justify-content: center;
+  margin: 4em;
+}
+
+/* GALLERY */
+
+.matreshka-on-facebook {
+  text-align: center;
+  background-color:#f1e0bc;
+  padding: 2em 0;
+}
+
+.matreshka-on-facebook img {
+  width: 13em;
+  height: 13em;
+  padding: .3em;
+}
+
+.matreshka-on-facebook h2 {
+  font-size: 2em;
+  margin-bottom: 1.5em;
+}
+
+.watch-me-fb {
+  display: inline-block;
+  color: #fff;
+  background-color: #408bd1;
+  padding: .5em 1em;
+  border-radius: 3px;
+  margin-top: 1em;
+}
+
+.watch-me-fb .fa-facebook {
+  color: #fff;
+  padding-right: .5em;
+}
+
+/* COMMENTS */
+
+.all-comments {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3em;
+}
+
+footer h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 2em;
+}
+
+.comments {
+  flex: 1 0 25%;
+  text-align: center;
+  margin: 3em;
+}
+
+.comments img {
+  width: 7em;
+  border-radius: 50%;
+  margin-bottom: .5em;
+}
+
+.comments p {
+  line-height: 1.8;
+}
+
+.five-stars .fa-star {
+  color: gold;
 }
