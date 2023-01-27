@@ -102,6 +102,16 @@
   margin-bottom: 1.5em;
 }
 
+.container_second {
+  display: flex;
+  flex-wrap: wrap;
+  padding: .5em 11em;
+}
+
+.container_second a {
+  flex: 1 0 22%;
+}
+
 .watch-me-fb {
   display: inline-block;
   color: #fff;

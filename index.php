@@ -132,18 +132,30 @@
 
 			<h2>Matréshka Manikúra Pedikúra na Facebooku</h2>
 
-			<div class="first-line">
-				<a href="https://www.facebook.com/salonmatreshka/photos/850529899687806"><img src="./gallery/302275049_850529896354473_7837993006769758969_n.jpg" alt="lak znacky kinetics"></a>
+			<!-- <div class="first-line"> -->
+
+			<div class="container_second">
+
+				<?php foreach ( $matreshka_on_facebook as $dude ) : ?>
+
+					<a href="<?php echo $dude['image_href'] ?>">
+						<img src="<?php echo $dude['image_src'] ?>" alt="">
+					</a>
+
+				<?php endforeach ?>
+
+				<!-- <a href="https://www.facebook.com/salonmatreshka/photos/850529899687806"><img src="./gallery/302275049_850529896354473_7837993006769758969_n.jpg" alt="lak znacky kinetics"></a>
 				<a href="https://www.facebook.com/salonmatreshka/photos/856718075735655"><img src="./gallery/305234763_856718065735656_3981884893071796739_n.jpg" alt="dva pohare sa strngaju"></a>
 				<a href="https://www.facebook.com/salonmatreshka/photos/861503415257121"><img src="./gallery/307011782_861503395257123_3838845117708807307_n.jpg" alt="dve ruky sa dotykaju"></a>
-				<a href="https://www.facebook.com/salonmatreshka/photos/848874496520013"><img src="./gallery/302287451_848874493186680_7940049762403309222_n.jpg" alt="nalakovane nechty na nohach na cierno"></a>
-			</div>
+				<a href="https://www.facebook.com/salonmatreshka/photos/848874496520013"><img src="./gallery/302287451_848874493186680_7940049762403309222_n.jpg" alt="nalakovane nechty na nohach na cierno"></a> -->
+			
 
-			<div class="second-line">
-				<a href="https://www.facebook.com/salonmatreshka/photos/598716968202435"><img src="./gallery/235974039_598716978202434_5567984271108480661_n.jpg" alt="nechty na nohach nalakovane na modro"></a>
+			<!-- <div class="second-line"> -->
+				<!-- <a href="https://www.facebook.com/salonmatreshka/photos/598716968202435"><img src="./gallery/235974039_598716978202434_5567984271108480661_n.jpg" alt="nechty na nohach nalakovane na modro"></a>
 				<a href="https://www.facebook.com/salonmatreshka/photos/917076779699784"><img src="./gallery/316295459_917076773033118_4695194740064293109_n.jpg" alt="nechty na rukach nalakovane na hnedo"></a>
 				<a href="https://www.facebook.com/salonmatreshka/photos/913567856717343"><img src="./gallery/316522128_913567853384010_1776089485116392796_n.jpg" alt="necht nalakovany na strieborno"></a>
-				<a href="https://www.facebook.com/salonmatreshka/photos/925849325489196"><img src="./gallery/317994649_925849318822530_3032589775131773924_n.jpg" alt="nechty na rukach nalakovane na cierno,so striebornym dizajnom"></a>
+				<a href="https://www.facebook.com/salonmatreshka/photos/925849325489196"><img src="./gallery/317994649_925849318822530_3032589775131773924_n.jpg" alt="nechty na rukach nalakovane na cierno,so striebornym dizajnom"></a> -->
+
 			</div>
 
 			<a href="https://www.facebook.com/salonmatreshka" class="watch-me-fb"><i class="fa-brands fa-facebook"></i>Sledujte ma na Facebooku</a>
@@ -162,7 +174,7 @@
 
 				<div class="comments">
 
-					<img src="./gallery/311672128_895693868504742_6488029264432664561_n small.jpg" alt="">
+					<img src="<?php echo $dude['image'] ?>" alt="">
 
 					<div class="five-stars">
 						<i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i>
