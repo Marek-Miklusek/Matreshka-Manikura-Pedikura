@@ -16,6 +16,12 @@
 </head>
 <body>
 
+<?php 
+
+	include 'array.php';
+
+?>
+
   <header>
     <nav>
 
@@ -153,13 +159,52 @@
     <h2><i>Napísali o mne</i></h2>
 
     <div class="all-comments">
+
+      <div class="comments">
+
+        <img src="./gallery/311672128_895693868504742_6488029264432664561_n small.jpg" alt="">
+
+        <div class="five-stars">
+          <i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i>
+        </div>
+
+        <p><?php echo $all_comments[0] ?></p>
+        <h4>Dominika Hraškova</h4>
+
+      </div>
+
+      <div class="comments">
+
+        <img src="./gallery/311672128_895693868504742_6488029264432664561_n small.jpg" alt="">
+
+        <div class="five-stars">
+          <i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i>
+        </div>
+
+        <p><?php echo $all_comments[1] ?></p>
+        <h4>Dominika Hraškova</h4>
+
+      </div>
+
+      <div class="comments">
+
+        <img src="./gallery/311672128_895693868504742_6488029264432664561_n small.jpg" alt="">
+
+        <div class="five-stars">
+          <i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i>
+        </div>
+
+        <p><?php echo $all_comments[2] ?></p>
+        <h4>Dominika Hraškova</h4>
+		  
+      </div>
+
       <div class="comments">
         <img src="./gallery/311672128_895693868504742_6488029264432664561_n small.jpg" alt="">
         <div class="five-stars">
           <i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i>
         </div>
-        <p>"Už niekoľko krát som absolvovala hĺbkové čistenie a mikrodermabráziu a môžem povedať, že už po jednom dni vidno výsledok. Zápal v oblasti tváre sa po jednom dni stiahne, pleť sa zjedností a po niekoľkych dňoch zapálené vyrážky zmiznú. Som veľmi spokojná. Ďakujem."
-          Dominika Hraškova</p>
+        <p><?php echo $all_comments[3] ?></p>
         <h4>Dominika Hraškova</h4>
       </div>
       <div class="comments">
@@ -167,8 +212,7 @@
         <div class="five-stars">
           <i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i>
         </div>
-        <p>"Už niekoľko krát som absolvovala hĺbkové čistenie a mikrodermabráziu a môžem povedať, že už po jednom dni vidno výsledok. Zápal v oblasti tváre sa po jednom dni stiahne, pleť sa zjedností a po niekoľkych dňoch zapálené vyrážky zmiznú. Som veľmi spokojná. Ďakujem."
-          Dominika Hraškova</p>
+        <p><?php echo $all_comments[4] ?></p>
         <h4>Dominika Hraškova</h4>
       </div>
       <div class="comments">
@@ -176,35 +220,7 @@
         <div class="five-stars">
           <i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i>
         </div>
-        <p>"Už niekoľko krát som absolvovala hĺbkové čistenie a mikrodermabráziu a môžem povedať, že už po jednom dni vidno výsledok. Zápal v oblasti tváre sa po jednom dni stiahne, pleť sa zjedností a po niekoľkych dňoch zapálené vyrážky zmiznú. Som veľmi spokojná. Ďakujem."
-          Dominika Hraškova</p>
-        <h4>Dominika Hraškova</h4>
-      </div>
-      <div class="comments">
-        <img src="./gallery/311672128_895693868504742_6488029264432664561_n small.jpg" alt="">
-        <div class="five-stars">
-          <i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i>
-        </div>
-        <p>"Už niekoľko krát som absolvovala hĺbkové čistenie a mikrodermabráziu a môžem povedať, že už po jednom dni vidno výsledok. Zápal v oblasti tváre sa po jednom dni stiahne, pleť sa zjedností a po niekoľkych dňoch zapálené vyrážky zmiznú. Som veľmi spokojná. Ďakujem."
-          Dominika Hraškova</p>
-        <h4>Dominika Hraškova</h4>
-      </div>
-      <div class="comments">
-        <img src="./gallery/311672128_895693868504742_6488029264432664561_n small.jpg" alt="">
-        <div class="five-stars">
-          <i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i>
-        </div>
-        <p>"Už niekoľko krát som absolvovala hĺbkové čistenie a mikrodermabráziu a môžem povedať, že už po jednom dni vidno výsledok. Zápal v oblasti tváre sa po jednom dni stiahne, pleť sa zjedností a po niekoľkych dňoch zapálené vyrážky zmiznú. Som veľmi spokojná. Ďakujem."
-          Dominika Hraškova</p>
-        <h4>Dominika Hraškova</h4>
-      </div>
-      <div class="comments">
-        <img src="./gallery/311672128_895693868504742_6488029264432664561_n small.jpg" alt="">
-        <div class="five-stars">
-          <i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i>
-        </div>
-        <p>"Už niekoľko krát som absolvovala hĺbkové čistenie a mikrodermabráziu a môžem povedať, že už po jednom dni vidno výsledok. Zápal v oblasti tváre sa po jednom dni stiahne, pleť sa zjedností a po niekoľkych dňoch zapálené vyrážky zmiznú. Som veľmi spokojná. Ďakujem."
-          Dominika Hraškova</p>
+        <p><?php echo $all_comments[5] ?></p>
         <h4>Dominika Hraškova</h4>
       </div>
     </div>
