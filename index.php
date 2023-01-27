@@ -37,7 +37,7 @@
 					<i class="fa-solid fa-phone"></i>
 					<p><?php echo "$contact_phone" ?></p>
 				</div>
-				
+
 				<a href="<?php echo $facebook ?>" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
 				<a href="<?php echo $instagram ?>" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
 
@@ -73,29 +73,15 @@
 
 		<section class="services">
 
-			<div class="services-1">
-				<img src="./images/logo2.jpg" class="services-image" alt="">
-				<h2>Manikúra</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt tempore beatae quisquam dolore earum quae, cupiditate exercitationem quas sequi .</p>
-			</div>
+			<?php foreach ( $services as $dude ) : ?>
 
-			<div class="services-2">
-				<img src="./images/logo2.jpg" class="services-image" alt="">
-				<h2>Pedikúra</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt tempore beatae quisquam dolore earum quae, cupiditate exercitationem quas sequi .</p>
-			</div>
+				<div class="services_each">
+					<img src="./images/logo2.jpg" alt="">
+					<h2><?php echo $dude['name'] ?></h2>
+					<p><?php echo $dude['description'] ?></p>
+				</div>
 
-			<div class="services-3">
-				<img src="./images/logo2.jpg" class="services-image" alt="">
-				<h2>Parafínoterapia</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt tempore beatae quisquam dolore earum quae, cupiditate exercitationem quas sequi .</p>
-			</div>
-
-			<div class="services-4">
-				<img src="./images/logo2.jpg" class="services-image" alt="">
-				<h2>Design nechtov</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt tempore beatae quisquam dolore earum quae, cupiditate exercitationem quas sequi .</p>
-			</div>
+			<?php endforeach ?>
 
 		</section>
 
@@ -172,83 +158,22 @@
 
 		<div class="all-comments">
 
-			<div class="comments">
+			<?php foreach ( $all_comments as $dude ) : ?>
 
-				<img src="./gallery/311672128_895693868504742_6488029264432664561_n small.jpg" alt="">
+				<div class="comments">
 
-				<div class="five-stars">
-					<i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i>
+					<img src="./gallery/311672128_895693868504742_6488029264432664561_n small.jpg" alt="">
+
+					<div class="five-stars">
+						<i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i>
+					</div>
+
+					<h4><?php echo $dude['name'] ?></h4>
+					<p><?php echo $dude['comment'] ?></p>
+
 				</div>
 
-				<p><?php echo $all_comments[0] ?></p>
-				<h4>Dominika Hraškova</h4>
-
-			</div>
-
-			<div class="comments">
-
-				<img src="./gallery/311672128_895693868504742_6488029264432664561_n small.jpg" alt="">
-
-				<div class="five-stars">
-					<i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i>
-				</div>
-
-				<p><?php echo $all_comments[1] ?></p>
-				<h4>Dominika Hraškova</h4>
-
-			</div>
-
-			<div class="comments">
-
-				<img src="./gallery/311672128_895693868504742_6488029264432664561_n small.jpg" alt="">
-
-				<div class="five-stars">
-					<i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i>
-				</div>
-
-				<p><?php echo $all_comments[2] ?></p>
-				<h4>Dominika Hraškova</h4>
-
-			</div>
-
-			<div class="comments">
-
-				<img src="./gallery/311672128_895693868504742_6488029264432664561_n small.jpg" alt="">
-
-				<div class="five-stars">
-					<i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i>
-				</div>
-
-				<p><?php echo $all_comments[3] ?></p>
-				<h4>Dominika Hraškova</h4>
-
-			</div>
-
-			<div class="comments">
-
-				<img src="./gallery/311672128_895693868504742_6488029264432664561_n small.jpg" alt="">
-
-				<div class="five-stars">
-					<i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i>
-				</div>
-
-				<p><?php echo $all_comments[4] ?></p>
-				<h4>Dominika Hraškova</h4>
-
-			</div>
-
-			<div class="comments">
-
-				<img src="./gallery/311672128_895693868504742_6488029264432664561_n small.jpg" alt="">
-
-				<div class="five-stars">
-					<i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i>
-				</div>
-
-				<p><?php echo $all_comments[5] ?></p>
-				<h4>Dominika Hraškova</h4>
-
-			</div>
+			<?php endforeach ?>
 
 		</div>
 

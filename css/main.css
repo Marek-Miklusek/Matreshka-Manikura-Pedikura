@@ -4,35 +4,24 @@
   display: flex;
 }
 
-.services-image {
+.services_each img {
   width: 10em;
   border-radius: 50%;
 }
 
-.services div {
+.services_each {
   text-align: center;
   padding: 2em;
 }
 
-.services p {
+.services_each p {
   line-height: 2.5;
 }
 
-.services-1 { 
-  background-color: #fff2e9;
-}
-
-.services-2 { 
-  background-color: #e6cc9466;
-}
-
-.services-3 { 
-  background-color: #fce1c9;
-}
-
-.services-4 { 
-  background-color: #f6e7dc;
-}
+.services_each:nth-child(1) {background-color: #fff2e9;}
+.services_each:nth-child(2) {background-color: #e6cc9466;}
+.services_each:nth-child(3) {background-color: #fce1c9;}
+.services_each:nth-child(4) {background-color: #f6e7dc;}
 
 /* WHY ME */
 
