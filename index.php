@@ -20,45 +20,15 @@
 
 	<?php
 
-	include 'array.php';
 	$contact_phone = '+421 919 064 372';
 	$facebook = 'https://www.facebook.com/salonmatreshka';
 	$instagram = 'https://www.instagram.com/viktoria_bochinche/';
+	include 'array.php';
+	include 'navigation.php';
 
 	?>
 
 	<header>
-
-		<nav>
-
-			<div class="tel-social-media">
-
-				<div class="telephone">
-					<i class="fa-solid fa-phone"></i>
-					<p><?php echo "$contact_phone" ?></p>
-				</div>
-
-				<a href="<?php echo $facebook ?>" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
-				<a href="<?php echo $instagram ?>" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
-
-			</div>
-
-			<div class="main-navigation">
-
-				<a href="">
-					<img src="./images/logo1.jpg" class="logo" alt="logo">
-				</a>
-
-				<ul class="main-navigation-a">
-					<li><a href="o_salone.php">O SALÓNE</a></li>
-					<li class="price-list"><a href="cennik.php">CENNÍK</a></li>
-					<li><a href="galeria.php">GALÉRIA</a></li>
-					<li class="contact"><a href="kontakt.php">KONTAKT</a></li>
-				</ul>
-
-			</div>
-
-		</nav>
 
 		<div class="welcome">
 			<div class="welcome-order-button">
@@ -150,43 +120,12 @@
 
 	</main>
 
-	<footer>
+	<?php 
 
-		<h2><i>Napísali o mne</i></h2>
-
-		<div class="all-comments">
-
-			<?php foreach ( $all_comments as $dude ) : ?>
-
-				<div class="comments">
-
-					<img src="<?php echo $dude['image'] ?>" alt="">
-
-					<div class="five-stars">
-						<i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i>
-					</div>
-
-					<h4><?php echo $dude['name'] ?></h4>
-					<p><?php echo $dude['comment'] ?></p>
-
-				</div>
-
-			<?php endforeach ?>
-
-		</div>
-
-		<div class="last-footer">
-
-			<p>&copy; 2023 | Marek Miklúšek |<a href="https://github.com/Marek-Miklusek"><i class="fa-brands fa-github"></i></a></p>
-
-			<p>
-				<a href="https://www.facebook.com/salonmatreshka" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
-				<a href="https://www.instagram.com/viktoria_bochinche/" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
-			</p>
-
-		</div>
-
-	</footer>
+		include 'array.php';
+		include 'footer.php';
+	
+	?>
 
 </body>
 </html>

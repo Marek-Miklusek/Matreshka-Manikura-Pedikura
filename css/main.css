@@ -131,4 +131,33 @@
   padding-right: .5em;
 }
 
+/* MAIN ABOUT SALON */
+
+.about_owner {
+  display: flex;
+  width: 80%;
+  margin: 8em auto;
+  background-color: #feefe2;
+  color: #282828;
+}
+
+.about_owner img {
+  width: 10em;
+  height: 10em;
+  background-position: 20px 0;
+}
+
+.about_owner img,.about_owner_text {
+  padding: 1.5em;
+}
+
+.about_owner_text p {
+  margin: 0;
+  font-style: italic;
+}
+
+.about_owner_text h4 {
+  margin-bottom: .5em;
+}
+
 
