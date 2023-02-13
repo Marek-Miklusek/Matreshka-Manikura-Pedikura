@@ -106,8 +106,12 @@
          'image_src' => './gallery/317994649_925849318822530_3032589775131773924_n.jpg',
       ],
 
-      
-
    ];
+
+   // FUNCTIONS
+
+   function order_button () {
+      echo "<a href=\"kontakt.php\" class=\"order-button\"><i class=\"fa-solid fa-circle-chevron-right\"></i>OBJEDNAŤ SA</a>";
+   }
 
 ?>

@@ -33,7 +33,7 @@
 		<div class="welcome">
 			<div class="welcome-order-button">
 				<h1>Perfektná starostlivosť o vaše ruky a nohy <br> v mojom salóne,teším sa na vašu návštevu!</h1>
-				<a href="" class="order-button"><i class="fa-solid fa-circle-chevron-right"></i>OBJEDNAŤ SA</a>
+				<?= order_button() ?>
 			</div>
 		</div>
 
@@ -93,7 +93,7 @@
 			</div>
 
 			<div class="box-order-button">
-				<a href="" class="order-button"><i class="fa-solid fa-circle-chevron-right"></i>OBJEDNAŤ SA</a>
+			<?= order_button() ?>
 			</div>
 
 		</section>
@@ -122,7 +122,6 @@
 
 	<?php 
 
-		include 'array.php';
 		include 'footer.php';
 	
 	?>

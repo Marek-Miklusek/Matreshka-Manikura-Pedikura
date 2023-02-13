@@ -23,6 +23,7 @@
       $facebook = 'https://www.facebook.com/salonmatreshka';
 	   $instagram = 'https://www.instagram.com/viktoria_bochinche/';
       include 'navigation.php';
+      include 'array.php';
    
    ?>
 
@@ -34,7 +35,7 @@
             <p>Salón Matréshka Manikúra Pedikúra vás víta v útulnom a príjemnom prostredí, v Banskej Bystrici v mestskej časti Fončorda. Teším sa na vašu návštevu. </p>
             
             <div class="buttons_about_salon">
-               <a href="kontakt.php" class="order-button"><i class="fa-solid fa-circle-chevron-right"></i>OBJEDNAŤ SA</a>
+               <?= order_button() ?>
                <a href="cennik.php" class="price_button"><i class="fa-solid fa-circle-chevron-right"></i>CENNÍK</a>
             </div>
 
@@ -101,7 +102,6 @@
 
    <?php 
 
-      include 'array.php';
       include 'footer.php';
    
    ?>
