@@ -3,6 +3,7 @@
 
 :root {
   --color-order-button:#f7a461;
+  --color-fa-regular-icons:#e6cc94;
 }
 
 body {
@@ -30,7 +31,7 @@ img {
 }
 
 strong {
-  color: burlywood;
+  color: var(--color-fa-regular-icons);
 }
 
 /* MEDIA QUERIES */

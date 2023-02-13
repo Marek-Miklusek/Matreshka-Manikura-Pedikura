@@ -62,7 +62,7 @@
 
 .fa-regular {
   font-size: 3em;
-  color: #e6cc94;
+  color: var(--color-fa-regular-icons);
   -webkit-text-stroke: 2px white;
 }
 
