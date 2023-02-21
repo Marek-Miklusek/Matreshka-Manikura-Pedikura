@@ -56,4 +56,13 @@
   padding-left: .2em;
  }
 
+ .stolen {
+  color: #e6cc94;
+ }
+
+ .stolen:hover,
+ .stolen:active {
+  text-decoration: underline;
+ }
+
 
