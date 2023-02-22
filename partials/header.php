@@ -16,7 +16,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title><?php if ($page_name == 'Matréshka Manikúra Pedikúra') echo $page_name; else echo $page_name.'/Matréshka Manikúra Pedikúra';?></title>
 	<link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon_io/android-chrome-192x192.png">
 	<!-- neskor sa pozriet este na tu faviconu,velkost -->
@@ -26,8 +26,6 @@
 	<link rel="stylesheet" href="./assets/css/main.css">
 	<link rel="stylesheet" href="./assets/css/footer.css">
 	<link rel="stylesheet" href="./assets/css/style.css">
-
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- <script src="assets/js/jquery-2.1.1.min.js"></script> -->
 	<!--[if lt IE 9]>
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>

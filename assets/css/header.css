@@ -228,12 +228,12 @@ nav {
     width: 14em;
     height: 14em;
     transition: all .5s ease-in-out;
-    padding: .3em;
-    border: 3px solid var(--color-fa-regular-icons);
+    margin: .2em;
+    border: 4px solid var(--color-fa-regular-icons);
 }
 
 .gallery_image_second img:hover {
-  transform: scale(.95);
+  transform: scale(1.05);
 }
 
 /* NICE EFFECT FOR IMAGES */
