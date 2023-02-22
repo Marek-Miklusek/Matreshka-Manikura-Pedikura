@@ -114,7 +114,7 @@ nav {
   align-items: flex-end;
 }
 
-h1 {
+.welcome h1 {
   font-weight: normal;
   font-size: clamp(1em,5vw,2em);
   font-style: italic;
@@ -198,9 +198,80 @@ h1 {
   letter-spacing: 8px;
 }
 
-.bg {
-  background-color: red;
+  /* GALERIA */
+
+  .gallery_show_nails {
+    padding-top: 13em;
+    text-align: center;
+  }
+
+  .gallery_show_nails h1 {
+    text-decoration: underline solid var(--color-fa-regular-icons) 2px;
+    text-underline-offset: 10px;
+  }
+
+  .gallery_show_nails p {
+    font-size: 20px;
+    width: 5em;
+    margin: 0 auto;
+    text-decoration: underline solid var(--color-fa-regular-icons) 2px;
+    text-underline-offset: 7px;
+  }
+
+  .gallery_image_second {
+    text-align: center;
+    margin-top: 5em;
+  }
+
+  .gallery_image_second img {
+    vertical-align: middle;
+    width: 14em;
+    height: 14em;
+    transition: all .5s ease-in-out;
+    padding: .3em;
+    border: 3px solid var(--color-fa-regular-icons);
 }
+
+.gallery_image_second img:hover {
+  transform: scale(.95);
+}
+
+/* NICE EFFECT FOR IMAGES */
+/* IMAGES HAVE TO BE SAME SIZE */
+
+/* .gallery img {
+	width: 33.333333333%;
+	height: auto;
+	max-width: 100%;
+} */
+
+/* .container {
+	max-width: 1150px;
+	margin: 0 auto;
+} */
+
+/* #overlay {
+	background: rgba(0,0,0,.7);
+	width: 100%;
+  height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9;
+	text-align: center;
+  margin-top: 9em;
+}*/
+
+/* #overlay img {
+	border: 5px solid white;
+	border-radius: 5px;
+} */ 
+
+
+  
+  
+
+
 
 
 

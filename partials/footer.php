@@ -38,5 +38,7 @@
 
 </footer>
 
+<!-- scripts -->
+<!-- <script src="assets/js/lightbox.js"></script> -->
 </body>
 </html>

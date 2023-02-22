@@ -39,7 +39,7 @@
          <p>- <strong>vždy to najlepšie </strong> pre moje klienkty.</p>
       </div>
 
-      <div class="container">
+      <div class="index_icons">
 
       <div class="heart">
          <p><i class="fa-regular fa-heart"></i></p>

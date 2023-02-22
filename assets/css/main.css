@@ -46,12 +46,12 @@
   color: #333;
 }
 
-.container {
+.index_icons {
   display: flex;
   margin-top: 5em;
 }
 
-.container p {
+.index_icons p {
   text-align: center;
   font-size: 18px;
 }
@@ -86,7 +86,7 @@
 }
 
 .matreshka-on-facebook img {
-  width: 13em;
+  width: 13.5em;
   height: 13em;
   padding: .3em;
   transition: all .5s ease-in-out;
@@ -102,13 +102,13 @@
   margin-bottom: 1.5em;
 }
 
-.container_second {
+.index_image_second {
   display: flex;
   flex-wrap: wrap;
   padding: .5em 11em;
 }
 
-.container_second a {
+.index_image_second a {
   flex: 1 0 22%;
 }
 

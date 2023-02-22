@@ -6,6 +6,14 @@
   --color-fa-regular-icons:#e6cc94;
 }
 
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
 }

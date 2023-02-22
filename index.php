@@ -44,7 +44,7 @@
 			<p>- <strong>vždy to najlepšie </strong> pre moje klienkty.</p>
 		</div>
 
-		<div class="container">
+		<div class="index_icons">
 
 			<div class="heart">
 				<p><i class="fa-regular fa-heart"></i></p>
@@ -80,15 +80,15 @@
 
 		<h2>Matréshka Manikúra Pedikúra na Facebooku</h2>
 
-		<div class="container_second">
+		<div class="index_image_second">
 
-			<?php foreach ( $matreshka_on_facebook as $dude ) : ?>
+			<?php 
+			
+				foreach (glob('assets/gallery/*') as $image) {
+					echo '<a href="'.$image.'"><img src="'.$image.'"></a>';
+				}
 
-				<a href="<?php echo $dude['image_href'] ?>">
-					<img src="<?php echo $dude['image_src'] ?>">
-				</a>
-
-			<?php endforeach ?>
+			?>
 
 		</div>
 

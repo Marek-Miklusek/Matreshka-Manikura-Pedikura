@@ -10,6 +10,8 @@
    text-align: center;
    font-size: 2em;
    margin-top: 2em;
+   text-decoration: underline solid var(--color-fa-regular-icons) 2px;
+   text-underline-offset: 10px;
  }
  
  .comments {
