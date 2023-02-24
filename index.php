@@ -22,7 +22,7 @@
 		<?php foreach ( $services as $dude ) : ?>
 
 			<div class="services_each">
-				<img src="./images/logo2.jpg" alt="">
+				<img src="./assets/images/logo-smaller.jpg" alt="">
 				<h2><?php echo $dude['name'] ?></h2>
 				<p><?php echo $dude['description'] ?></p>
 			</div>
@@ -62,7 +62,7 @@
 
 			<?php 
 			
-				foreach (glob('assets/gallery/*') as $image) {
+				foreach (glob('assets/gallery_index/*') as $image) {
 					echo '<a href="'.$image.'"><img src="'.$image.'"></a>';
 				}
 

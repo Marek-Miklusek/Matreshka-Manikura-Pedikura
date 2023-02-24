@@ -15,7 +15,7 @@
 
       <?php 
       
-         foreach (glob('assets/Galeria/*') as $image) {
+         foreach (glob('assets/gallery_gallery/*') as $image) {
             echo '<a href="'.$image.'"><img src="'.$image.'"></a>';
          }
       
