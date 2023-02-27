@@ -21,6 +21,7 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon_io/android-chrome-192x192.png">
 	<!-- neskor sa pozriet este na tu faviconu,velkost -->
 	<link rel="stylesheet" href="./assets/Normalize/normalize-v8.0.1.css">
+	<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="./assets/css/all.min.css">
 	<link rel="stylesheet" href="./assets/css/header.css">
 	<link rel="stylesheet" href="./assets/css/main.css">

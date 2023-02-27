@@ -160,4 +160,16 @@
   margin-bottom: .5em;
 }
 
+/* MAIN KONTAKT */
+
+.form {
+  padding-top: 10em;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form-group {
+  
+}
+
 
