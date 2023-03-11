@@ -1,8 +1,4 @@
-<?php 
-
-   include 'partials/header.php';
-
-?>
+<?php include 'partials/header.php' ?>
 
 <header class="gallery">
 
@@ -15,9 +11,9 @@
 
       <?php 
       
-         foreach (glob('assets/gallery_gallery/*') as $image) {
-            echo '<a href="'.$image.'"><img src="'.$image.'"></a>';
-         }
+      foreach (glob('assets/gallery-gallery/*') as $image) {
+         echo '<a href="'.$image.'"><img src="'.$image.'"></a>';
+      }
       
       ?>
 
@@ -25,10 +21,8 @@
 
 </header>
 
-<?php 
+<?php include 'partials/footer.php' ?>
 
-   include 'partials/footer.php';
 
-?>
 
 

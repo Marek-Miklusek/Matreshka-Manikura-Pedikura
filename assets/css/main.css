@@ -37,7 +37,6 @@
 }
 
 .why-me-h1-p h2 {
-  font-size: 2em;
   margin-bottom: 1.5em;
 }
 
@@ -168,8 +167,13 @@
   justify-content: flex-end;
 }
 
-.form-group {
-  
+.btn {
+  background-color: burlywood;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: var(--color-odoslat-email-button-hover);
 }
 
 

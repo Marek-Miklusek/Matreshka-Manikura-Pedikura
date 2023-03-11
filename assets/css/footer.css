@@ -44,6 +44,10 @@
    padding: .5em 4em .5em 4em;
  }
 
+ .last-footer p {
+  margin: 0;
+ }
+
  .last-footer .fa-brands {
    color: #e6cc94;
    font-size: 1.5em;

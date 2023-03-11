@@ -1,8 +1,4 @@
-<?php 
-
-	include 'partials/header.php';
-
-?>
+<?php include 'partials/header.php' ?>
 
 <header>
 
@@ -39,7 +35,7 @@
          <p>- <strong>vždy to najlepšie </strong> pre moje klienkty.</p>
       </div>
 
-      <?php include 'partials/satisfaction_with_quality.php' ?>
+      <?php include 'partials/satisfaction-with-quality.php' ?>
 
    </section>
 
@@ -57,8 +53,4 @@
 
 </main>
 
-<?php 
-
-   include 'partials/footer.php';
-
-?>
+<?php include 'partials/footer.php' ?>
